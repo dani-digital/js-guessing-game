@@ -1,27 +1,26 @@
-Welcome to Glitch
-=================
+<h1>Build a Game with Javascript</h1>
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+<h2>Overview</h2>
+<ul>
+  <li>Use Javascript to complete key functions to run a hot and cold app.</li>
+  <li>Follow the instructions for challenges on the ReadMe and in the app.js file.</li>
+  <li>All the code you'll write will be on the app.js file.</li>
+</ul>
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+<h2>Building your game</h2>
 
-Find out more [about Glitch](https://glitch.com/about).
+<p><b>Step 1: Creating a random number.</b> The first thing we need for our application to work is a target number. Write a function that returns a random number. For this you'll need to declare a function, then return the value using a randomization equation. For help with that, you can check out this Javascript documentation on the function <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random">Math.random</a>.</p>
+<p><b>Step 2: Assigning your random number to a variable.</b> Once you've got your random number function working, we need to put it somewhere. Declare a variable and set the value of that variable as the random number you generate with the function you just wrote.</p> 
+<p><b>Step 3: Checking the user's guess.</b> Finally, we need a function that checks whether or not the user's guess matches the randomly generated number. Fill in the rest of this declared function with an if/else statement that gives feedback to the user on whether or not they got the right number.</p>
 
-
-Your Project
-------------
-
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+<p><b>Working version:</b> Here's a <a href="https://tf-number-guessing-game-answer-key.glitch.me/">link</a> to a working version of the app.
+</p>
 
 
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
+<h2>Helpful Links</h2>
+<ul>
+<li><a href="https://www.w3schools.com/js/js_functions.asp">Javascript Functions</a></li>
+<li><a href="https://www.w3schools.com/js/js_variables.asp">Javascript Variables</a></li>
+<li><a href="https://www.w3schools.com/js/js_operators.asp">Javascript Operators</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random">Math.random</a></li>
+</ul>
